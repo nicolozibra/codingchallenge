@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Scegli il monopattino!</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">    
+  </head>
+
+  <body>
+    <form action="">
+
+
+      <!-- CONTENITORE -->
+     <div id="maincontenitor">
+
+      <!-- LOGO E TITOLO -->
+      <header>
+       <img id="logo" src="logo.png">
+       <h1>Taking Booleaners from A to B</h1>
+      </header>
+
+      <!-- MENU A INTERAZIONE -->
+      <nav>
+       <div class="navigation">
+        <input type="submit" name="booking" value="Prenota">
+        <input type="submit" name="booking-ending" value="Termina Prenotazione">
+        <input type="submit" name="lights-on" value="Accendi Luci">
+       </div>
+
+      </nav>
+
+      <!-- LISTA DEGLI SCOOTER -->
+      <main>
+       <div class="scooter-list">
+
+        <!-- SCOOTER#1 -->
+         <div class="row">
+           <section class="scooter-selection">
+             <input type="radio" name="scooter" value="#1"required>
+             <h2>Monopattino Gino22</h2>
+           </section>
+           <section class="scooter-info">
+             <p> Via Guadalametri - a 220 metri da te</p>
+             <span>Stato carica:</span>
+             <span id="Gino22">35%</span>
+           </section>
+         </div>
+
+        <!-- SCOOTER#2 -->
+         <div class="row">
+           <section class="scooter-selection">
+             <input type="radio" name="scooter" value="#2"required>
+             <h2>Monopattino Mike24</h2>
+           </section>
+           <section class="scooter-info">
+             <p> Via Ricciardoni - a 420 metri da te</p>
+             <span>Stato carica:</span>
+             <span id="Mike24"> 60%</span>
+           </section>
+         </div>
+
+        <!-- SCOOTER#3 -->
+         <div class="row">
+           <section class="scooter-selection">
+             <input type="radio" name="scooter" value="3#"required>
+             <h2>Monopattino Fede154</h2>
+           </section>
+           <section class="scooter-info">
+             <p> Via Mentarini - a 490 metri da te</p>
+             <span>Stato carica:</span>
+             <span id="Fede154">15%</span>
+           </section>
+         </div>
+
+       </div>
+      </main>
+
+     </div>
+
+   </form>
+  </body>
+</html>

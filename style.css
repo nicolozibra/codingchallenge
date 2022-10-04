@@ -1,0 +1,83 @@
+/* GENERAL SETTINGS */
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+body{
+  background-image: url(background.jpg);
+  background-size: 1920px 1200px;
+  margin: auto;
+}
+main, header{
+  font-family: 'Poppins', sans-serif;
+}
+#maincontenitor{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  height: 768px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 68px;
+}
+
+/* HEADER */
+header{
+  text-align: center;
+  margin-bottom: 5px;
+}
+h1{
+  color: #00dd00;
+}
+#logo{
+  width: 230px;
+  height:110px;
+  margin-top: 80px;
+}
+
+/* NAV */
+.navigation{
+  width: 80%;
+  background-color: #00dd00;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+/* MAIN */
+div.scooter-list span{
+  display: block;
+  border-radius: 5px;
+}
+.scooter-list{
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+.row{
+  margin-top: 20px;
+}
+section > input{
+  margin-left: 3px;
+}
+section > h2{
+  display: inline-block;
+  margin-left: 2px;
+}
+section > p:before{
+  content: "\2192";
+}
+#Gino22{
+  background-color: #f5b453;
+  width: 35%;
+  color: rgba(0, 0, 0, 0);
+}
+#Mike24{
+  background-color: #1ec31e;
+  width: 60%;
+  color: rgba(0, 0, 0, 0);
+}
+#Fede154{
+  background-color: #be4141;
+  width: 15%;
+  color: rgba(0, 0, 0, 0);
+}
